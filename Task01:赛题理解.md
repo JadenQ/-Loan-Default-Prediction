@@ -58,3 +58,5 @@
   -employmentLength数据为字符类型数据，需要转换为数值/label类型，"10+ years"与"10 years"不同，"1 years"与"<1 years"不同，可以使用label encoding
   
   -earliesCreditLine数据类型需要转换
+  
+  -脱敏的字段数据如employmentTitle是文本数据embedding之后的数值，需要进行分桶，转换为categorical数据
