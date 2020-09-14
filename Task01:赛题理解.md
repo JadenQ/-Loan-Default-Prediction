@@ -46,9 +46,15 @@
 #### 5.赛制
   正式赛9月5号-11月12号。
 #### 6.初步洞察与思路
+
   -每一条数据是一个贷款交易
+  
   -存在欺诈的贷款人可能利用不同的title进行贷款
+  
   -grade/subgrade贷款等级是贷款机构对贷款人情况以及贷款对象综合评价后给出基于风险的等级划分，比较有参考价值；可以转化为label encoding
+  
   -借款人的历史行为可能比较重要
-  -employmentLength数据为字符类型数据，需要转换为数值/label类型，"10+ years"与"10 years"不同，"1 years"与"<1 years"不同，可以使用label encoding。
+  
+  -employmentLength数据为字符类型数据，需要转换为数值/label类型，"10+ years"与"10 years"不同，"1 years"与"<1 years"不同，可以使用label encoding
+  
   -earliesCreditLine数据类型需要转换
